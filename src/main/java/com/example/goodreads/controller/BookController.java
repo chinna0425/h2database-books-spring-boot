@@ -18,7 +18,7 @@ import java.util.*;
 class BookController {
     
     @Autowired
-    BookH2Service bookService;
+    private BookH2Service bookService;
 
     @GetMapping("/books")
     public ArrayList<Book> getBooks() {
